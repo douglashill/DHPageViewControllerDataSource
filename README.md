@@ -17,6 +17,12 @@ Keep a strong reference to the data source.
 
 An example project is included, in which the application delegate keeps a strong reference to its `pageDataSource` using a read-only, lazily-loaded property.
 
+## Screen shot
+
+There isn’t much to look at, but the example project looks like this:
+
+<img src="http://douglashill.co/files/DHPageViewControllerDataSource-640x960.png" width="320" height="480">
+
 ## Licence
 
 MIT license — see License.txt
