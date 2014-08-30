@@ -1,0 +1,22 @@
+# DHPageViewControllerDataSource
+
+`DHPageViewControllerDataSource` is an Objective-C class for iOS apps that implements `UIPageViewControllerDataSource` for static content, represented as an array of view controllers. It makes the simple case of a static list of content view controllers really easy to set up in code.
+
+## Status
+
+Last tested with Xcode 5.1.1 and the iOS 7.1 SDK.
+
+## Usage
+
+Create a `DHPageViewControllerDataSource` passing an array of view controllers whose views will be shown as pages. Send the data source `becomeDataSourceOfPageViewController:`, passing the `UIPageViewController` as the argument.
+
+	DHPageViewControllerDataSource *pageDataSource = [[DHPageViewControllerDataSource alloc] initWithViewControllers:@[<#view controllers#>]];
+	[pageDataSource becomeDataSourceOfPageViewController:<#page view controller#>];
+
+Keep a strong reference to the data source.
+
+An example project is included, in which the application delegate keeps a strong reference to its `pageDataSource` using a read-only, lazily-loaded property.
+
+## Licence
+
+MIT license — see License.txt
