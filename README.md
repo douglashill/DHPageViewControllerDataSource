@@ -4,7 +4,7 @@
 
 ## Status
 
-Last tested with Xcode 5.1.1 and the iOS 7.1 SDK.
+Last tested with Xcode 6.0 and the iOS 8.0 SDK.
 
 ## Usage
 
