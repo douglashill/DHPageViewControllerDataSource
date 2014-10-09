@@ -12,6 +12,7 @@
 		A541039E19B1F16F0010900F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A541039D19B1F16F0010900F /* Images.xcassets */; };
 		A54103BD19B1F6A30010900F /* DHPageViewControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A54103BC19B1F6A30010900F /* DHPageViewControllerDataSource.m */; };
 		A54103C319B206930010900F /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54103C219B206930010900F /* ContentViewController.m */; };
+		A5FF7BC319E7408900CA0CEA /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5FF7BC219E7408900CA0CEA /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A54103BC19B1F6A30010900F /* DHPageViewControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHPageViewControllerDataSource.m; path = ../DHPageViewControllerDataSource.m; sourceTree = "<group>"; };
 		A54103C119B206930010900F /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		A54103C219B206930010900F /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		A5FF7BC219E7408900CA0CEA /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				A54103C119B206930010900F /* ContentViewController.h */,
 				A54103C219B206930010900F /* ContentViewController.m */,
 				A541039719B1F16F0010900F /* main.m */,
+				A5FF7BC219E7408900CA0CEA /* Launch Screen.xib */,
 				A541039D19B1F16F0010900F /* Images.xcassets */,
 				A541038919B1F16F0010900F /* Products */,
 			);
@@ -113,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A541039E19B1F16F0010900F /* Images.xcassets in Resources */,
+				A5FF7BC319E7408900CA0CEA /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +213,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -220,7 +223,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
